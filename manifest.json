@@ -10,5 +10,13 @@
       "css": ["style.css"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "./should_do_logo.png"
+    },
+    "default_title": "Should Do",
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": ["should_do_logo.png"]
 }
